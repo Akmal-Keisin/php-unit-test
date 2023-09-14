@@ -1,8 +1,11 @@
 <?xml version="1.0"?>
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" colors="true" stopOnError="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.3/phpunit.xsd" cacheDirectory=".phpunit.cache">
   <testsuites>
-    <testsuite name="belajar">
+    <testsuite name="all">
       <directory>tests</directory>
+    </testsuite>
+    <testsuite name="mock">
+        <file>tests/TestMock.php</file>
     </testsuite>
   </testsuites>
 </phpunit>

@@ -19,5 +19,9 @@
             "AkmalKeisin\\Test\\": "tests"
         }
     },
-    "require": {}
+    "require": {},
+    "scripts": {
+        "test": "vendor/bin/phpunit --configuration phpunit.xml",
+        "test:mock": "vendor/bin/phpunit --configuration phpunit.xml --testsuite mock"
+    }
 }
