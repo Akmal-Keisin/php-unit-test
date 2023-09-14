@@ -4,6 +4,11 @@ namespace AkmalKeisin\Test;
 use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\TestCase;
 
+/**
+ * in this test, i've learned how to run a unit test with php unit. 
+ * i also learn how to test if the result of some method/something else is equal to what i expected with assertEqual method
+ */
+
 class CounterTest extends TestCase {
     public function testCounter() {
         $counter = new Counter();
