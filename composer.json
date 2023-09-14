@@ -1,5 +1,5 @@
 {
-    "name": "krinzz/php-unit-test",
+    "name": "akmal-keisin/php-unit-test",
     "require-dev": {
         "phpunit/phpunit": "^10.3"
     },
